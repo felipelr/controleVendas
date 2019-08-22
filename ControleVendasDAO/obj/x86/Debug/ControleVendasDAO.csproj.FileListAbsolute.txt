@@ -1,0 +1,10 @@
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\bin\x86\Debug\ControleVendasDAO.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\bin\x86\Debug\ControleVendasDAO.pdb
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\bin\x86\Debug\ControleVendasModel.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\bin\x86\Debug\ControleVendasModel.pdb
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\obj\x86\Debug\ControleVendasDAO.csprojAssemblyReference.cache
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\obj\x86\Debug\ControleVendasDAO.csproj.CoreCompileInputs.cache
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\obj\x86\Debug\ControleVendasDAO.csproj.CopyComplete
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\obj\x86\Debug\ControleVendasDAO.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasDAO\obj\x86\Debug\ControleVendasDAO.pdb

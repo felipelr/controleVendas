@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{295A355D-6A1D-4204-9517-89F72FB7F351}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ControleVendas</RootNamespace>
+    <AssemblyName>ControleVendas</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Util\Tools.cs" />
+    <Compile Include="Views\Cadastros\frmCategoriaDespesaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmCategoriaDespesaCadastro.Designer.cs">
+      <DependentUpon>frmCategoriaDespesaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmContaBancariaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmContaBancariaCadastro.Designer.cs">
+      <DependentUpon>frmContaBancariaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmEstoqueAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmEstoqueAlterar.Designer.cs">
+      <DependentUpon>frmEstoqueAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmFornecedorCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmFornecedorCadastro.Designer.cs">
+      <DependentUpon>frmFornecedorCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmMarcaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmMarcaCadastro.Designer.cs">
+      <DependentUpon>frmMarcaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmProdutoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmProdutoCadastro.Designer.cs">
+      <DependentUpon>frmProdutoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmUnidadeCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\frmUnidadeCadastro.Designer.cs">
+      <DependentUpon>frmUnidadeCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContaBancariaMovimento\frmContaBancariaMovimentacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ContaBancariaMovimento\frmContaBancariaMovimentacao.Designer.cs">
+      <DependentUpon>frmContaBancariaMovimentacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContaBancariaMovimento\frmContaBancariaMovimentacaoFiltros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ContaBancariaMovimento\frmContaBancariaMovimentacaoFiltros.Designer.cs">
+      <DependentUpon>frmContaBancariaMovimentacaoFiltros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContasPagar\frmDespesaFiltros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ContasPagar\frmDespesaFiltros.Designer.cs">
+      <DependentUpon>frmDespesaFiltros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContasPagar\frmDespesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ContasPagar\frmDespesas.Designer.cs">
+      <DependentUpon>frmDespesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dashboard\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dashboard\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Movimentacoes\frmVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Movimentacoes\frmVenda.Designer.cs">
+      <DependentUpon>frmVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Movimentacoes\frmVendaDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Movimentacoes\frmVendaDetalhes.Designer.cs">
+      <DependentUpon>frmVendaDetalhes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Cadastros\frmCategoriaDespesaCadastro.resx">
+      <DependentUpon>frmCategoriaDespesaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\frmContaBancariaCadastro.resx">
+      <DependentUpon>frmContaBancariaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\frmEstoqueAlterar.resx">
+      <DependentUpon>frmEstoqueAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\frmFornecedorCadastro.resx">
+      <DependentUpon>frmFornecedorCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\frmMarcaCadastro.resx">
+      <DependentUpon>frmMarcaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\frmProdutoCadastro.resx">
+      <DependentUpon>frmProdutoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\frmUnidadeCadastro.resx">
+      <DependentUpon>frmUnidadeCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ContaBancariaMovimento\frmContaBancariaMovimentacao.resx">
+      <DependentUpon>frmContaBancariaMovimentacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ContaBancariaMovimento\frmContaBancariaMovimentacaoFiltros.resx">
+      <DependentUpon>frmContaBancariaMovimentacaoFiltros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ContasPagar\frmDespesaFiltros.resx">
+      <DependentUpon>frmDespesaFiltros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ContasPagar\frmDespesas.resx">
+      <DependentUpon>frmDespesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dashboard\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\Movimentacoes\frmVenda.resx">
+      <DependentUpon>frmVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Movimentacoes\frmVendaDetalhes.resx">
+      <DependentUpon>frmVendaDetalhes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_dollar_preto_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControleVendasController\ControleVendasController.csproj">
+      <Project>{92934ff0-5221-46c8-b486-262bc569eeaf}</Project>
+      <Name>ControleVendasController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControleVendasModel\ControleVendasModel.csproj">
+      <Project>{f0bb1bba-1a17-4936-a38a-464b816e941c}</Project>
+      <Name>ControleVendasModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_buscar_branco_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_buscar_preto_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_edit_preto_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_excluir_preto_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_atualizar_branco_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_check_preto_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_empty_24.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

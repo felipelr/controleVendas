@@ -1,0 +1,6 @@
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasModel\bin\Debug\ControleVendasModel.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasModel\bin\Debug\ControleVendasModel.pdb
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasModel\obj\Debug\ControleVendasModel.csprojAssemblyReference.cache
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasModel\obj\Debug\ControleVendasModel.csproj.CoreCompileInputs.cache
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasModel\obj\Debug\ControleVendasModel.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasModel\obj\Debug\ControleVendasModel.pdb

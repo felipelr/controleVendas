@@ -1,0 +1,11 @@
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\bin\Debug\ControleVendasController.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\bin\Debug\ControleVendasController.pdb
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\bin\Debug\ControleVendasDAO.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\bin\Debug\ControleVendasModel.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\bin\Debug\ControleVendasDAO.pdb
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\bin\Debug\ControleVendasModel.pdb
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\obj\Debug\ControleVendasController.csprojAssemblyReference.cache
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\obj\Debug\ControleVendasController.csproj.CoreCompileInputs.cache
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\obj\Debug\ControleVendasController.csproj.CopyComplete
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\obj\Debug\ControleVendasController.dll
+C:\Projetos\ControleVendas\ControleVendas\ControleVendasController\obj\Debug\ControleVendasController.pdb
